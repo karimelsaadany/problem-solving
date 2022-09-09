@@ -1,15 +1,12 @@
-function isAnagram(s: string, t: string): boolean {
+function isAnagram(s, t) {
   // // using sorting: time O(nlogn) / space O(1)
   //   if(s.split('').sort().join('') === t.split('').sort().join('')) return true
   //   return false
 
   // // using hashMap: time O(n) / space O(n)
   // if (s.length !== t.length) return false
-  // interface IHash {
-  //   [key: string]: number
-  // }
-  // const sHash: IHash = {}
-  // const tHash: IHash = {}
+  // const sHash = {}
+  // const tHash = {}
 
   // for (let i = 0; i < s.length; i++) {
   //   if (sHash[s[i]]) {

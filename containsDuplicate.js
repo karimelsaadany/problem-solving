@@ -1,4 +1,4 @@
-const containsDuplicate = (nums: number[]): boolean => {
+const containsDuplicate = (nums) => {
   // // bruteForce: time O(n^2) / space O(1)
   // for (let i = 0; i < nums.length; i++) {
   //   for (let j = i+1; j < nums.length - i; j++) {
@@ -13,10 +13,7 @@ const containsDuplicate = (nums: number[]): boolean => {
   // }
 
   // // Using HashMap: time O(n) / space O(n)
-  // interface IHash {
-  //   [key: number]: number
-  // }
-  // const hashMap: IHash = {}
+  // const hashMap = {}
 
   // for (let i = 0; i < nums.length; i++) {
   //   if (hashMap[nums[i]]) return true
