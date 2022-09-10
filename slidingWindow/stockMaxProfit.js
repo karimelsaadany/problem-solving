@@ -7,11 +7,10 @@ const maxProfit = (prices) => {
   while (p2 < prices.length) {
     if (prices[p1] < prices[p2]) {
       tempProfit = prices[p2] - prices[p1]
-      p2++
     } else if (prices[p2] < prices[p1]) {
       p1 = p2
-      p2++
-    } else p2++
+    }
+    p2++
     maxProfit = Math.max(maxProfit, tempProfit)
   }
 
