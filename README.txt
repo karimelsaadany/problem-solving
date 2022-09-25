@@ -1,3 +1,3 @@
 Repo for all problems I solved
 
-The folders indicate the topics covered
+The folders name indicate the topics covered
